@@ -41,7 +41,7 @@ ORDER BY
     salary_year_avg DESC
 LIMIT 12
 ```
-![Top Paying Roles](assets\top_paying_roles.png)
+![Top Paying Roles](assets/top_paying_roles.png)
 Bar graph visualizing the salary for the top 12 salaries for data analysts; Gemini generated this graph from my SQL query results
 
 
