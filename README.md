@@ -158,6 +158,7 @@ Tools like Bitbucket, Couchbase, and DataRobot also rank high, suggesting demand
 Programming tools such as Pandas, Jupyter, Swift, and Golang are associated with strong salary outcomes.
 
 5. Most Optimal Skills to Learn
+
 This analysis combines demand and salary insights to highlight the most valuable skills to focus on as a Data Analyst.
 
 ```sql
