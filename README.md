@@ -41,7 +41,7 @@ ORDER BY
     salary_year_avg DESC
 LIMIT 12
 ```
-![Top Paying Roles](assets\top_paying_roles.png)
+![Top Paying Roles][assets\top_paying_roles.png]
 Bar graph visualizing the salary for the top 12 salaries for data analysts; Gemini generated this graph from my SQL query results
 
 
@@ -79,7 +79,7 @@ ORDER BY
     salary_year_avg DESC
 ```
 
-![Top Paying Skills](assets\top_paying_roles_skills.png)
+![Top Paying Skills][assets\top_paying_roles_skills.png]
 Bar graph visualizing the count of skills for the top 12 paying jobs for data analysts; Gemini generated this graph from my SQL query results
 
 3. In-Demand Skills for Data Analysts
@@ -101,19 +101,15 @@ ORDER BY
     demand_count DESC
 LIMIT 5
 ```
-+-----------+--------------+
-| Skills    | Demand Count |
-+-----------+--------------+
-| SQL       | 7,291        |
-+-----------+--------------+
-| Excel     | 4,611        |
-+-----------+--------------+
-| Python    | 4,330        |
-+-----------+--------------+
-| Tableau   | 3,745        |
-+-----------+--------------+
-| Power BI  | 2,609        |
-+-----------+--------------+
+### 📊 Most Demanded Skills
+| Skills | Demand Count |
+| :--- | :--- |
+| **SQL** | 7,291 |
+| **Excel** | 4,611 |
+| **Python** | 4,330 |
+| **Tableau** | 3,745 |
+| **Power BI** | 2,609 |
+
 Table of the demand for the top 5 skills in data analyst job postings
 
 4. Skills Based on Salary
@@ -136,31 +132,21 @@ ORDER BY
     avg_salary DESC
 LIMIT 25
 ```
-+---------------+------------+
-| skills        | avg_salary |
-+---------------+------------+
-| pyspark       | 208172     |
-+---------------+------------+
-| bitbucket     | 189155     |
-+---------------+------------+
-| couchbase     | 160515     |
-+---------------+------------+
-| watson        | 160515     |
-+---------------+------------+
-| datarobot     | 155486     |
-+---------------+------------+
-| gitlab        | 154500     |
-+---------------+------------+
-| swift         | 153750     |
-+---------------+------------+
-| jupyter       | 152777     |
-+---------------+------------+
-| pandas        | 151821     |
-+---------------+------------+
-| elasticsearch | 145000     |
-+---------------+------------+
-| golang        | 145000     |
-+---------------+------------+
+### 💰 Highest Paying Skills
+| Skills | Average Salary ($) |
+| :--- | :--- |
+| **PySpark** | 208,172 |
+| **Bitbucket** | 189,155 |
+| **Couchbase** | 160,515 |
+| **Watson** | 160,515 |
+| **DataRobot** | 155,486 |
+| **GitLab** | 154,500 |
+| **Swift** | 153,750 |
+| **Jupyter** | 152,777 |
+| **Pandas** | 151,821 |
+| **Elasticsearch** | 145,000 |
+| **Golang** | 145,000 |
+
 📊 Results Breakdown
 
 The table shows that more technical and specialized skills are linked to higher salaries.
@@ -242,34 +228,22 @@ ORDER BY
     demand_count DESC
 LIMIT 25;
 ```
+### 📈 Optimal Skills (High Demand & High Salary)
+| Skill ID | Skills | Demand Count | Average Salary ($) |
+| :--- | :--- | ---: | ---: |
+| 8 | **Go** | 27 | 115,320 |
+| 234 | **Confluence** | 11 | 114,210 |
+| 97 | **Hadoop** | 22 | 113,193 |
+| 80 | **Snowflake** | 37 | 112,948 |
+| 74 | **Azure** | 34 | 111,225 |
+| 77 | **BigQuery** | 13 | 109,654 |
+| 76 | **AWS** | 32 | 108,317 |
+| 4 | **Java** | 17 | 106,906 |
+| 194 | **SSIS** | 12 | 106,683 |
+| 233 | **Jira** | 20 | 104,918 |
+| 79 | **Oracle** | 37 | 104,534 |
+| 185 | **Looker** | 49 | 103,795 |
 
-+----------+------------+--------------+------------+
-| skill_id | skills     | demand_count | avg_salary |
-+----------+------------+--------------+------------+
-| 8        | go         | 27           | 115320     |
-+----------+------------+--------------+------------+
-| 234      | confluence | 11           | 114210     |
-+----------+------------+--------------+------------+
-| 97       | hadoop     | 22           | 113193     |
-+----------+------------+--------------+------------+
-| 80       | snowflake  | 37           | 112948     |
-+----------+------------+--------------+------------+
-| 74       | azure      | 34           | 111225     |
-+----------+------------+--------------+------------+
-| 77       | bigquery   | 13           | 109654     |
-+----------+------------+--------------+------------+
-| 76       | aws        | 32           | 108317     |
-+----------+------------+--------------+------------+
-| 4        | java       | 17           | 106906     |
-+----------+------------+--------------+------------+
-| 194      | ssis       | 12           | 106683     |
-+----------+------------+--------------+------------+
-| 233      | jira       | 20           | 104918     |
-+----------+------------+--------------+------------+
-| 79       | oracle     | 37           | 104534     |
-+----------+------------+--------------+------------+
-| 185      | looker     | 49           | 103795     |
-+----------+------------+--------------+------------+
 📊 Results Breakdown
 
 This table highlights skills that balance both demand and strong average salaries, making them strategically valuable.
@@ -293,3 +267,6 @@ This project improved my SQL skills while giving me a clearer understanding of t
 
 Overall, this analysis showed me that focusing on high-demand and high-paying skills can create a stronger position in a competitive job market. It also reminded me that continuous learning is essential in the evolving field of data analytics.
 
+
+
+[top_paying_roles]: assets\top_paying_roles.png
