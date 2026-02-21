@@ -41,7 +41,7 @@ ORDER BY
     salary_year_avg DESC
 LIMIT 12
 ```
-!![Top Paying Roles][top_paying_roles]
+![Top Paying Roles](assets\top_paying_roles.png)
 Bar graph visualizing the salary for the top 12 salaries for data analysts; Gemini generated this graph from my SQL query results
 
 
@@ -79,7 +79,7 @@ ORDER BY
     salary_year_avg DESC
 ```
 
-![Top Paying Skills][top_paying_skills]
+![Top Paying Skills](assets/top_paying_roles_skills.png)
 Bar graph visualizing the count of skills for the top 12 paying jobs for data analysts; Gemini generated this graph from my SQL query results
 
 3. In-Demand Skills for Data Analysts
