@@ -21,3 +21,55 @@ GROUP BY
 ORDER BY
     demand_count DESC
 LIMIT 5
+
+/*
+🥇 1st – SQL (16082)
+
+SQL dominates the market.
+
+Interpretation:
+
+SQL is the foundation of data analysis.
+Almost every data analyst role requires SQL.
+
+This confirms SQL is non-negotiable.
+
+🥈 2nd – Python (10386)
+
+Python is the second most requested skill.
+
+Indicates:
+
+Data analysts are increasingly expected to perform:
+
+Data manipulation
+
+Automation
+
+Advanced analysis
+
+Python significantly boosts employability.
+
+🥉 3rd – Excel (9849)
+
+Excel remains extremely relevant.
+
+Despite being considered “basic,”
+it is still heavily required in business environments.
+
+Shows that traditional BI workflows are still strong.
+
+4️⃣ Tableau (8704)
+
+Tableau is the leading visualization tool in demand.
+
+Indicates:
+
+Data storytelling and dashboarding are critical skills.
+
+5️⃣ Power BI (6300)
+
+Power BI is also highly demanded.
+
+Especially strong in corporate environments
+*/
