@@ -22,6 +22,8 @@ ORDER BY
     demand_count DESC
 LIMIT 5
 
+
+
 /*
 🥇 1st – SQL (16082)
 
