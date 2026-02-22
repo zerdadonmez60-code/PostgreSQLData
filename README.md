@@ -5,7 +5,7 @@ Check out my SQL queries here: [project folder](/project/).
 # Background
 The motivation behind this project was my desire to better understand the Data Analyst job market through real data rather than assumptions. I wanted to analyze which roles offer the highest salaries, which skills are most in demand, and how demand and salary intersect to guide a more strategic learning path.
 
-The dataset used in this analysis comes from Luke Barousse’s SQL Course (link to be added) and includes information on job titles, salaries, locations, remote status, and required skills.
+The dataset used in this analysis comes from Luke Barousse’s SQL Course (https://www.lukebarousse.com/sql) and includes information on job titles, salaries, locations, remote status, and required skills.
 
 As my first end-to-end SQL portfolio project, this work represents an important milestone in my journey, shifting my focus from learning SQL syntax to applying it for real-world market analysis.
 # Tools I Used
@@ -158,7 +158,6 @@ Tools like Bitbucket, Couchbase, and DataRobot also rank high, suggesting demand
 Programming tools such as Pandas, Jupyter, Swift, and Golang are associated with strong salary outcomes.
 
 5. Most Optimal Skills to Learn
-
 This analysis combines demand and salary insights to highlight the most valuable skills to focus on as a Data Analyst.
 
 ```sql
