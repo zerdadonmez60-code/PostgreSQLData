@@ -18,6 +18,7 @@ In this project, I utilized a variety of tools to conduct my analysis:
 # The Analysis
 Each query focuses on a specific dimension of the Data Analyst job market. Here’s how I approached each question.
 1. Top Paying Data Analyst Jobs
+
 To identify the highest-paying Data Analyst roles, I filtered remote positions with specified annual salaries and sorted them in descending order. This allowed me to highlight the top 12 highest-paying opportunities and observe how salary levels relate to seniority and company profile.
 
 ```sql
@@ -47,6 +48,7 @@ Bar graph visualizing the salary for the top 12 salaries for data analysts; Gemi
 
 
 2. Skills for Top Paying Jobs
+
 To identify the skills behind the highest-paying roles, I combined job postings with the related skills data. This allowed me to understand what employers value most in high-salary Data Analyst positions.
 
 ```sql
@@ -83,6 +85,7 @@ ORDER BY
 Bar graph visualizing the count of skills for the top 12 paying jobs for data analysts; Gemini generated this graph from my SQL query results
 
 3. In-Demand Skills for Data Analysts
+
 This analysis revealed the most in-demand skills for Data Analysts, helping me understand where I should focus my learning.
 
 ```sql
@@ -113,6 +116,7 @@ LIMIT 5
 Table of the demand for the top 5 skills in data analyst job postings
 
 4. Skills Based on Salary
+
 This query showed which skills are connected to higher average salaries in the Data Analyst market.
 
 ```sql
@@ -158,6 +162,7 @@ Tools like Bitbucket, Couchbase, and DataRobot also rank high, suggesting demand
 Programming tools such as Pandas, Jupyter, Swift, and Golang are associated with strong salary outcomes.
 
 5. Most Optimal Skills to Learn
+
 This analysis combines demand and salary insights to highlight the most valuable skills to focus on as a Data Analyst.
 
 ```sql
