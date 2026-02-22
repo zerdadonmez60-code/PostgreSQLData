@@ -270,7 +270,7 @@ Analytical Thinking: Translating real-world job market questions into structured
 # Conclusions
 This project improved my SQL skills while giving me a clearer understanding of the Data Analyst job market. The results helped me see which skills are more valuable in terms of both demand and salary, allowing me to prioritize my learning more strategically.
 
-Overall, this analysis showed me that focusing on high-demand and high-paying skills can create a stronger position in a competitive job market. It also reminded me that continuous learning is essential in the evolving field of data analytics.zerda
+Overall, this analysis showed me that focusing on high-demand and high-paying skills can create a stronger position in a competitive job market. It also reminded me that continuous learning is essential in the evolving field of data analytics.
 
 
 [top_paying_roles]: assets\top_paying_roles.png
